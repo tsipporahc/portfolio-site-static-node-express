@@ -1,0 +1,71 @@
+{
+  "data": {
+    "projects": [
+      {
+        "id": "0",
+        "project_name": "Random Quote Generator",
+        "description": "this is a description of the project",
+        "technologies": "these are the technologies and frameworks",
+        "live_link": "",
+        "github_link": "https://github.com/tsipporahc/random-quote-generator",
+        "image_urls": [
+          "/mockups/about-page.png",
+          "/mockups/index-page.png",
+          "/mockups/project-page.png"
+        ]
+      },
+      {
+        "id": "1",
+        "project_name": "Random Quote Generator",
+        "description": "this is a description of the project",
+        "technologies": "these are the technologies and frameworks",
+        "live_link": "",
+        "github_link": "https://github.com/tsipporahc/random-quote-generator",
+        "image_urls": [
+          "/mockups/about-page.png",
+          "/mockups/index-page.png",
+          "/mockups/project-page.png"
+        ]
+      },
+      {
+        "id": "2",
+        "project_name": "Random Quote Generator",
+        "description": "this is a description of the project",
+        "technologies": "these are the technologies and frameworks",
+        "live_link": "",
+        "github_link": "https://github.com/tsipporahc/random-quote-generator",
+        "image_urls": [
+          "/mockups/about-page.png",
+          "/mockups/index-page.png",
+          "/mockups/project-page.png"
+        ]
+      },
+      {
+        "id": "3",
+        "project_name": "Random Quote Generator",
+        "description": "this is a description of the project",
+        "technologies": "these are the technologies and frameworks",
+        "live_link": "",
+        "github_link": "https://github.com/tsipporahc/random-quote-generator",
+        "image_urls": [
+          "/mockups/about-page.png",
+          "/mockups/index-page.png",
+          "/mockups/project-page.png"
+        ]
+      },
+      {
+        "id": "4",
+        "project_name": "Random Quote Generator",
+        "description": "this is a description of the project",
+        "technologies": "these are the technologies and frameworks",
+        "live_link": "",
+        "github_link": "https://github.com/tsipporahc/random-quote-generator",
+        "image_urls": [
+          "/mockups/about-page.png",
+          "/mockups/index-page.png",
+          "/mockups/project-page.png"
+        ]
+      }
+    ]
+  }
+}
