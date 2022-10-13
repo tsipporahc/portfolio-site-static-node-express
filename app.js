@@ -2,6 +2,8 @@
 const express = require('express');
 const app = express();
 const router = express.Router(); // create route handlers
+const bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: false }));
 
 // Require data from data.json
 const data = require('./data.json');
@@ -29,11 +31,39 @@ app.get('/about', (req, res) => {
 });
 
 // create dynamic project routes
-app.get('/projects/:id', (req, res) => {
+app.get('/project/:id', (req, res) => {
     const { id } = req.params;
-    console.dir(id);
-    console.dir(data.projects);
-    res.render('project', { projects });
+    if (id <= projects.length && id >= 0) {
+        console.dir(projects.length);
+        console.dir(id);
+        console.dir(projects[id]);
+        res.render('project', projects);
+    } else {
+        next();
+    }
+});
+
+// catch 404 and forward to error handler
+app.use((req, res, next) => {
+    const err = new Error(); // custom error object
+    err.status = 404;
+    err.message = 'Sorry, this page is not found :(';
+    console.log(err); // logs 404 status to console
+    console.log(err.message);
+    next(err);
+});
+
+// global error handler for server errors
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    if (err.status === 404) {
+        res.status(err.status);
+        res.render('page-not-found', err);
+    } else {
+        err.message = err.message || `oops!`;
+        res.status(err.status || 500);
+        res.render('error', err);
+    }
 });
 
 // set up local server using the listen method
