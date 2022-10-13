@@ -20,7 +20,7 @@ app.use('/static', express.static('public'));
 app.use(indexRoutes); */
 // define the index page route
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', { projects });
 });
 
 // create about route
@@ -37,7 +37,7 @@ app.get('/project/:id', (req, res) => {
         console.dir(projects.length);
         console.dir(id);
         console.dir(projects[id]);
-        res.render('project', projects);
+        res.render('project', { projects });
     } else {
         next();
     }
@@ -48,8 +48,8 @@ app.use((req, res, next) => {
     const err = new Error(); // custom error object
     err.status = 404;
     err.message = 'Sorry, this page is not found :(';
-    console.log(err); // logs 404 status to console
-    console.log(err.message);
+    //console.log(err); // logs 404 status to console
+    //console.log(err.message);
     next(err);
 });
 

@@ -8,59 +8,60 @@
             "live_link": "",
             "github_link": "https://github.com/tsipporahc/random-quote-generator",
             "image_urls": [
-                "/mockups/about-page.png",
-                "/mockups/index-page.png",
-                "/mockups/project-page.png"
+                "/static/img/0-index.png",
+                "/public/img/project-0/1.png",
+                "/public/img/project-0/2.png",
+                "/public/img/project-0/3.png"
             ]
         },
         {
             "id": "1",
-            "project_name": "Random Quote Generator",
+            "project_name": "Student Pagination",
             "description": "this is a description of the project",
             "technologies": "these are the technologies and frameworks",
             "live_link": "",
             "github_link": "https://github.com/tsipporahc/random-quote-generator",
             "image_urls": [
-                "/mockups/about-page.png",
+                "/static/img/1-index.png",
                 "/mockups/index-page.png",
                 "/mockups/project-page.png"
             ]
         },
         {
             "id": "2",
-            "project_name": "Random Quote Generator",
+            "project_name": "Conference Sign-Up Form",
             "description": "this is a description of the project",
             "technologies": "these are the technologies and frameworks",
             "live_link": "",
             "github_link": "https://github.com/tsipporahc/random-quote-generator",
             "image_urls": [
-                "/mockups/about-page.png",
+                "/static/img/2-index.png",
                 "/mockups/index-page.png",
                 "/mockups/project-page.png"
             ]
         },
         {
             "id": "3",
-            "project_name": "Random Quote Generator",
+            "project_name": "Phrase Guessing Game",
             "description": "this is a description of the project",
             "technologies": "these are the technologies and frameworks",
             "live_link": "",
             "github_link": "https://github.com/tsipporahc/random-quote-generator",
             "image_urls": [
-                "/mockups/about-page.png",
+                "/static/img/3-index.png",
                 "/mockups/index-page.png",
                 "/mockups/project-page.png"
             ]
         },
         {
             "id": "4",
-            "project_name": "Random Quote Generator",
+            "project_name": "Employee Directory Site",
             "description": "this is a description of the project",
             "technologies": "these are the technologies and frameworks",
             "live_link": "",
             "github_link": "https://github.com/tsipporahc/random-quote-generator",
             "image_urls": [
-                "/mockups/about-page.png",
+                "/static/img/4-index.png",
                 "/mockups/index-page.png",
                 "/mockups/project-page.png"
             ]

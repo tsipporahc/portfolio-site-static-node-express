@@ -8,16 +8,22 @@ block content
     h1 My Portfolio
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p This is my portfolio description. Enjoy!
+    p Stuff, fluff, bluff! Enjoy!
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
-
+      ul
+        each project in projects
+          ul
+           .cell
+            a(href=`/project/${project.id}`)
+              img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name}`)
+              h5= project.project_name
       //- Use the Pug `each` iterator to loop over the projects in your data file  
       
         //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
+          //- The paths in the link's href and img's src attributes 'static/img/0-index.png'
           //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
           //- The project title for the h5 element's text
 
