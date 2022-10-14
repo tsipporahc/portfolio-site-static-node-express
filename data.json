@@ -3,7 +3,7 @@
         {
             "id": "0",
             "project_name": "Random Quote Generator",
-            "description": "this is a description of the project",
+            "description": "This project generate a random set of quotes inspired from black women in history. I hope these quotes can inspires others and we move into our tech journey. This project was created to demonstrate foundational concepts in Javascript functions, arrays, and objects. I create an array of objects that stored the quotes, source, citation and year).",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://random-quote-generator-tsipporahc.netlify.app/",
             "github_link": "https://github.com/tsipporahc/random-quote-generator",
@@ -16,54 +16,77 @@
         },
         {
             "id": "1",
-            "project_name": "Student Pagination Page",
-            "description": "this is a description of the project",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "",
-            "github_link": "https://github.com/tsipporahc/random-quote-generator",
+            "project_name": "Student Data Pagination",
+            "description": "This project was created to paginate and filter student data information on a page. By creating DOM elements, I displayed nine students' data onto a page. I created and appended pagination buttons for users to easily browse through the student data list.",
+            "technologies": ["HTML", "CSS", "JavaScript", "DOM Manipulation"],
+            "live_link": "https://student-data-pagination-tsipporahc.netlify.app/",
+            "github_link": "https://github.com/tsipporahc/student-data-pagination",
             "image_urls": [
                 "/static/img/1-index.png",
-                "/mockups/index-page.png",
-                "/mockups/project-page.png"
+                "/static/img/project-1/1.png",
+                "/static/img/project-1/2.png",
+                "/static/img/project-1/3.png"
             ]
         },
         {
             "id": "2",
-            "project_name": "Conference Sign-Up Form",
-            "description": "this is a description of the project",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "",
-            "github_link": "https://github.com/tsipporahc/random-quote-generator",
+            "project_name": "Tech Conference Sign-Up Form",
+            "description": "Get ready to sign up for the next Full Stack Conference! This interactive form was created to demonstrates my foundational knowledge in Javascript regular expressions, event listeners, DOM maniplation and functions. I programmed the functionality of this form with accessibility in mind. I created interactive dropdown and selection menus. The form validates user inputs and notifies users with a valid or invalid message upon submission of the form.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "DOM Manipulation",
+                "Accessibility",
+                "REGEX"
+            ],
+            "live_link": "https://conference-form-tsipporahc.netlify.app/",
+            "github_link": "https://github.com/tsipporahc/interactive-conference-registration-form",
             "image_urls": [
                 "/static/img/2-index.png",
-                "/mockups/index-page.png",
-                "/mockups/project-page.png"
+                "/static/img/project-2/1.png",
+                "/static/img/project-2/2.png",
+                "/static/img/project-2/3.png"
             ]
         },
         {
             "id": "3",
             "project_name": "Phrase Guessing Game",
-            "description": "this is a description of the project",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "",
-            "github_link": "https://github.com/tsipporahc/random-quote-generator",
+            "description": "This phrase guessing game will bring alot of fun to family game nights, or english learners. This project was created to demonstrate foundational concepts in Javascript OOP and DOM manipulation. I created a Phrase class to carry the phrases. I also created a Game class to carry the logic of the game. This game keeps track of the number of loses during the game.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "DOM Manipulation",
+                "OOP"
+            ],
+            "live_link": "https://phrase-guessing-game-tsipporahc.netlify.app/",
+            "github_link": "https://github.com/tsipporahc/phrase-guessing-game",
             "image_urls": [
                 "/static/img/3-index.png",
-                "/mockups/index-page.png",
-                "/mockups/project-page.png"
+                "/static/img/project-3/1.png",
+                "/static/img/project-3/2.png",
+                "/static/img/project-3/3.png"
             ]
         },
         {
             "id": "4",
             "project_name": "Employee Directory Site",
-            "description": "this is a description of the project",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "",
-            "github_link": "https://github.com/tsipporahc/random-quote-generator",
+            "description": "This site serves an an employee directory so that companies can access employee data internally with ease. This project was created to demonstrate foundational concepts in public API requests. I fetched data from a random user site to generate 12 employees with US nationality. When users click on the employees cards a modal pop-up with more information appears.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Fetch and Public API Requests",
+                "DOM Manipulation"
+            ],
+            "live_link": "https://employee-directory-tsipporahc.netlify.app/",
+            "github_link": "https://github.com/tsipporahc/employee-directory",
             "image_urls": [
                 "/static/img/4-index.png",
-                "/mockups/index-page.png",
-                "/mockups/project-page.png"
+                "/static/img/project-4/1.png",
+                "/static/img/project-4/2.png",
+                "/static/img/project-4/3.png"
             ]
         }
     ]

@@ -1,5 +1,8 @@
 extend layout.pug
 
 block content
-    h1 err.status
-    h2 err.message
+    br
+    a(href='/') Back to Homepage
+    h1= err.status
+    h2= err.message
+    h2= err.stack

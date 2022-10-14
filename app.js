@@ -34,38 +34,35 @@ app.get('/about', (req, res) => {
 app.get('/project/:id', (req, res) => {
     const { id } = req.params;
     if (id <= projects.length && id >= 0) {
-        //console.dir(projects.length);
-        //console.dir(id);
-        //console.dir(projects[id]);
         res.render('project', { projects: projects[id] });
     } else {
-        next();
+        const err = new Error(); // custom error object
+        err.status = 404;
+        err.message = 'Sorry, this page does not exist :(';
+        res.render('page-not-found', { err });
     }
 });
 
-/* // catch 404 and forward to error handler
+// catch 404 and forward to error handler
 app.use((req, res, next) => {
     const err = new Error(); // custom error object
     err.status = 404;
     err.message = 'Sorry, this page is not found :(';
-    //console.log(err); // logs 404 status to console
-    //console.log(err.message);
     next(err);
 });
 
 // global error handler for server errors
 app.use((err, req, res, next) => {
-    res.locals.error = err;
     if (err.status === 404) {
         res.status(err.status);
-        res.render('page-not-found', err);
+        res.render('page-not-found', { err });
     } else {
         err.message =
             err.message || `My bad, pardon the construction around here!`;
         res.status(err.status || 500);
         res.render('error', { err });
     }
-}); */
+});
 
 // set up local server using the listen method
 app.listen(3000, () => {
