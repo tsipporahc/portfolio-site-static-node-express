@@ -33,9 +33,9 @@ block content
     .project-img-box.box
 
       //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
-      img.project-img(src=`${projects.image_urls[1]}`, alt='screenshot of lena horne quote on a green background')
-      img.project-img(src=`${projects.image_urls[2]}`, alt='how to select a random quote')
-      img.project-img(src=`${projects.image_urls[3]}`, alt='quotes inspired by black women in history')
+      img.project-img(src=`${projects.image_urls[1]}`, alt=`screenshot of ${projects.project_name}`)
+      img.project-img(src=`${projects.image_urls[2]}`, alt=`screenshot of ${projects.project_name}`)
+      img.project-img(src=`${projects.image_urls[3]}`, alt=`screenshot of ${projects.project_name}`)
 
     nav.nav
       a(href='/')
