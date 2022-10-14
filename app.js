@@ -34,10 +34,10 @@ app.get('/about', (req, res) => {
 app.get('/project/:id', (req, res) => {
     const { id } = req.params;
     if (id <= projects.length && id >= 0) {
-        console.dir(projects.length);
-        console.dir(id);
-        console.dir(projects[id]);
-        res.render('project', { projects });
+        //console.dir(projects.length);
+        //console.dir(id);
+        //console.dir(projects[id]);
+        res.render('project', { projects: projects[id] });
     } else {
         next();
     }
@@ -60,9 +60,10 @@ app.use((err, req, res, next) => {
         res.status(err.status);
         res.render('page-not-found', err);
     } else {
-        err.message = err.message || `oops!`;
+        err.message =
+            err.message || `My bad, pardon the construction around here!`;
         res.status(err.status || 500);
-        res.render('error', err);
+        res.render('error', { err });
     }
 });
 

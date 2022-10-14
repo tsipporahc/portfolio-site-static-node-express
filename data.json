@@ -4,8 +4,8 @@
             "id": "0",
             "project_name": "Random Quote Generator",
             "description": "this is a description of the project",
-            "technologies": "these are the technologies and frameworks",
-            "live_link": "",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://random-quote-generator-tsipporahc.netlify.app/",
             "github_link": "https://github.com/tsipporahc/random-quote-generator",
             "image_urls": [
                 "/static/img/0-index.png",
@@ -18,7 +18,7 @@
             "id": "1",
             "project_name": "Student Pagination",
             "description": "this is a description of the project",
-            "technologies": "these are the technologies and frameworks",
+            "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "",
             "github_link": "https://github.com/tsipporahc/random-quote-generator",
             "image_urls": [
@@ -31,7 +31,7 @@
             "id": "2",
             "project_name": "Conference Sign-Up Form",
             "description": "this is a description of the project",
-            "technologies": "these are the technologies and frameworks",
+            "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "",
             "github_link": "https://github.com/tsipporahc/random-quote-generator",
             "image_urls": [
@@ -44,7 +44,7 @@
             "id": "3",
             "project_name": "Phrase Guessing Game",
             "description": "this is a description of the project",
-            "technologies": "these are the technologies and frameworks",
+            "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "",
             "github_link": "https://github.com/tsipporahc/random-quote-generator",
             "image_urls": [
@@ -57,7 +57,7 @@
             "id": "4",
             "project_name": "Employee Directory Site",
             "description": "this is a description of the project",
-            "technologies": "these are the technologies and frameworks",
+            "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "",
             "github_link": "https://github.com/tsipporahc/random-quote-generator",
             "image_urls": [
