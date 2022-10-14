@@ -9,14 +9,14 @@
             "github_link": "https://github.com/tsipporahc/random-quote-generator",
             "image_urls": [
                 "/static/img/0-index.png",
-                "/public/img/project-0/1.png",
-                "/public/img/project-0/2.png",
-                "/public/img/project-0/3.png"
+                "/static/img/project-0/1.png",
+                "/static/img/project-0/2.png",
+                "/static/img/project-0/3.png"
             ]
         },
         {
             "id": "1",
-            "project_name": "Student Pagination",
+            "project_name": "Student Pagination Page",
             "description": "this is a description of the project",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "",

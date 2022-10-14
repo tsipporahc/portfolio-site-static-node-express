@@ -22,19 +22,20 @@ block content
       .project-tech-links-box.box
         h6 Technologies
         ul
-          each technology in projects.technologies //- Use an `each` iterator and interpolation to dynamically replace the li tags below with the technologies listed for this project
-          li= technology
+          //- Use an `each` iterator and interpolation to dynamically replace the li tags below with the technologies listed for this project
+          each technology in projects.technologies
+            li= technology
 
         //- Add the href values to the links below
-        a.btn-link(href='') Live Demo
-        a.btn-link(href='') GitHub Repo
+        a.btn-link(href=`${projects.live_link}` target='_blank') Live Demo
+        a.btn-link(href=`${projects.github_link}` target='_blank') GitHub Repo
 
     .project-img-box.box
 
       //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
-      img.project-img(src='https://placehold.it/1200x550', alt='')
-      img.project-img(src='https://placehold.it/1200x550', alt='')
-      img.project-img(src='https://placehold.it/1200x550', alt='')
+      img.project-img(src=`${projects.image_urls[1]}`, alt='screenshot of lena horne quote on a green background')
+      img.project-img(src=`${projects.image_urls[2]}`, alt='how to select a random quote')
+      img.project-img(src=`${projects.image_urls[3]}`, alt='quotes inspired by black women in history')
 
     nav.nav
       a(href='/')

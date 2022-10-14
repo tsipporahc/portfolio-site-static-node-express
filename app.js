@@ -43,7 +43,7 @@ app.get('/project/:id', (req, res) => {
     }
 });
 
-// catch 404 and forward to error handler
+/* // catch 404 and forward to error handler
 app.use((req, res, next) => {
     const err = new Error(); // custom error object
     err.status = 404;
@@ -65,7 +65,7 @@ app.use((err, req, res, next) => {
         res.status(err.status || 500);
         res.render('error', { err });
     }
-});
+}); */
 
 // set up local server using the listen method
 app.listen(3000, () => {
