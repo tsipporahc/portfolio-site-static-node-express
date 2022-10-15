@@ -1,5 +1,6 @@
-# portfolio-site-static-node-express
+# Welcome to my Portfolio
 Techdegree Unit 6 Project
+Static, Node.js and Express Site
 
 **Purpose:**
 This is my profolio showcasing a collection of full stack projects and apps. This project was created using Node.js, Express, Pug templates, and utilizing static assets. I really enjoyed working with server and wokring through the backend. I created four routes and handlers for errors. This is the final project for Unit 6 of the Treehouse Techdegree.
