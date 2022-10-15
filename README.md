@@ -1,5 +1,4 @@
 # portfolio-site-static-node-express
-
 Techdegree Unit 6 Project
 
 **Purpose:**
