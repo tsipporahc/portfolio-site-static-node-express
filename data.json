@@ -3,7 +3,7 @@
         {
             "id": "0",
             "project_name": "Random Quote Generator",
-            "description": "This project generate a random set of quotes inspired from black women in history. I hope these quotes can inspires others and we move into our tech journey. This project was created to demonstrate foundational concepts in Javascript functions, arrays, and objects. I create an array of objects that stored the quotes, source, citation and year).",
+            "description": "This project generate a random set of quotes inspired from black women in history. I hope these quotes can inspires others and we move into our tech journey. This project was created to demonstrate foundational concepts in Javascript functions, arrays, and objects. I create an array of objects that stored the quotes, source, citation and year.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://random-quote-generator-tsipporahc.netlify.app/",
             "github_link": "https://github.com/tsipporahc/random-quote-generator",
@@ -17,7 +17,7 @@
         {
             "id": "1",
             "project_name": "Student Data Pagination",
-            "description": "This project was created to paginate and filter student data information on a page. By creating DOM elements, I displayed nine students' data onto a page. I created and appended pagination buttons for users to easily browse through the student data list.",
+            "description": "This project was created to paginate and filter student data information on a page. By creating DOM elements, I displayed the data of nine onto a page. I created and appended pagination buttons for users to easily browse through the student data list.",
             "technologies": ["HTML", "CSS", "JavaScript", "DOM Manipulation"],
             "live_link": "https://student-data-pagination-tsipporahc.netlify.app/",
             "github_link": "https://github.com/tsipporahc/student-data-pagination",

@@ -15,17 +15,12 @@ app.set('view engine', 'pug');
 // Set the path module for static assets
 app.use('/static', express.static('public'));
 
-//  create index route
-/* const indexRoutes = require('./routes/index');
-app.use(indexRoutes); */
-// define the index page route
+// create index page route
 app.get('/', (req, res) => {
     res.render('index', { projects });
 });
 
 // create about route
-// const aboutRoutes = require('./routes/about');
-// app.use('/about', aboutRoutes);
 app.get('/about', (req, res) => {
     res.render('about');
 });
