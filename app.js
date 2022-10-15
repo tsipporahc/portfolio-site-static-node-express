@@ -39,7 +39,12 @@ app.get('/project/:id', (req, res) => {
         const err = new Error(); // custom error object
         err.status = 404;
         err.message = 'Sorry, this page does not exist :(';
-        res.render('page-not-found', { err });
+
+        res.render(
+            'page-not-found',
+            { err },
+            console.log(`Error Status: ${err.status}. ${err.message}`)
+        );
     }
 });
 
@@ -55,12 +60,21 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     if (err.status === 404) {
         res.status(err.status);
-        res.render('page-not-found', { err });
+        res.render(
+            'page-not-found',
+            { err },
+            console.log(`Error Status: ${err.status}. ${err.message}`)
+        );
     } else {
         err.message =
             err.message || `My bad, pardon the construction around here!`;
         res.status(err.status || 500);
-        res.render('error', { err });
+        console.log(err);
+        res.render(
+            'error',
+            { err },
+            console.log(`Error Status: ${err.status}. ${err.message}`)
+        );
     }
 });
 
