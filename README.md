@@ -1,4 +1,5 @@
 # Welcome to my Portfolio!
+
 Techdegree Unit 6 Project
 
 Static, Node.js and Express Site
@@ -11,7 +12,7 @@ My challenges included learning host javascript objects and learning a new Pug l
 
 ## Project Styling Customizations
 
--Side Bar: changed the color, added hover effect to /learn more' link
+-Side Bar: changed the color, added hover effect to 'learn more' link
 
 -Index Page: changed font type of title, hover effect on project div.cell
 
